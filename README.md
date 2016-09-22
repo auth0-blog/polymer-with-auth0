@@ -16,7 +16,7 @@ How to add Auth0 [Lock](https://auth0.com/docs/libraries/lock) authentication to
 
 ## Integrate Your Auth0 Account
 
-1. Sign up for a [free Auth0 account](https://auth0.com/pricing) and log in.
+1. Sign up for a [free Auth0 account](https://auth0.com/signup).
 2. In your **Auth0 Dashboard**, [create a new client](https://manage.auth0.com/#/clients/create).
 3. Name your new app and select "Single Page Web Applications".
 4. In the **Settings** section for your newly created app, add `http://localhost:8080` to the Allowed Callback URLs and Allowed Logout URLs.
@@ -45,8 +45,8 @@ Auth0 helps you to:
 
 ## Create a free Auth0 account
 
-1. Go to [Auth0](https://auth0.com/signup) and click Sign Up.
-2. Use Google, GitHub or Microsoft Account to login.
+1. Go to [Auth0](https://auth0.com/signup).
+2. Use Google, GitHub or Microsoft Account to log in.
 
 ## Issue Reporting
 
