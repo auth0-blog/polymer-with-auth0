@@ -1,5 +1,7 @@
 # Polymer App with Auth0
 
+How to add Auth0 [Lock](https://auth0.com/docs/libraries/lock) authentication to a Polymer web app.
+
 ## Dependencies
 
 * [Node.js](http://nodejs.org)
@@ -8,9 +10,9 @@
 
 ## Setup
 
-1. Install the Polymer CLI: `npm install -g polymer-CLI`
-2. Clone this repo into the folder of your choice
-3. Run `bower install` to install Bower components
+1. Install the Polymer CLI: `npm install -g polymer-CLI`.
+2. Clone this repo into the folder of your choice.
+3. Run `bower install` to install Bower components.
 
 ## Integrate Your Auth0 Account
 
@@ -25,4 +27,7 @@
 	domain="[YOUR_DOMAIN].auth0.com" 
 	redirect-url="http://localhost:8080"></auth0-login>
 ```
-6. Serve the Polymer project from the project folder: `polymer serve` (can be accessed in browser at [http://localhost:8080](http://localhost:8080), or add the `--open` flag to auto-launch in your default browser)
+
+## Serve
+
+Serve the Polymer project from the project folder: `polymer serve` (can be accessed in browser at [http://localhost:8080](http://localhost:8080), or add the `--open` flag to auto-launch in your default browser)
