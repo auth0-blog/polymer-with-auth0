@@ -3,7 +3,7 @@
 ## Dependencies
 
 * [Node.js](http://nodejs.org)
-* [Bower](http://bower.io) `npm install bower -g` (if adding additional packages)
+* [Bower](http://bower.io) `npm install bower -g`
 * [Auth0 account](https://auth0.com/pricing) (free)
 
 ## Setup
@@ -17,7 +17,7 @@
 1. Sign up for a [free Auth0 account](https://auth0.com/pricing) and log in.
 2. In your **Auth0 Dashboard**, [create a new client](https://manage.auth0.com/#/clients/create).
 3. Name your new app and select "Single Page Web Applications".
-4. In the **Settings** section for your newly created app, add `http://localhost:8080` to the Allowed Callback URLs, Allowed Logout URLs, and Allowed Origins (CORS).
+4. In the **Settings** section for your newly created app, add `http://localhost:8080` to the Allowed Callback URLs and Allowed Logout URLs.
 5. Open the `/src/my-app.html` file and replace the following with your app domain and client ID (found in **Settings** for your Auth0 app):
 ```
 <auth0-login 
