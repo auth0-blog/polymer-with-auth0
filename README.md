@@ -1,6 +1,6 @@
 # Polymer App with Auth0
 
-How to add Auth0 [Lock](https://auth0.com/docs/libraries/lock) authentication to a Polymer web app.
+How to add Auth0 [Lock](https://auth0.com/docs/libraries/lock) authentication to a Polymer web app. Read the tutorial here: [Build Your First App with Polymer and Web Components](https://auth0.com/blog/build-your-first-app-with-polymer-and-web-components/).
 
 ## Dependencies
 
